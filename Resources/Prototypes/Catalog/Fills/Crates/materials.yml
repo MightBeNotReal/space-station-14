@@ -153,6 +153,18 @@
           # for some reason, the selector here adds 1 to whatever value it generates,
           # so this is actually 2-4
 
+# Backmen edit start
+- type: entity
+  id: CrateMaterialModCore
+  parent: CrateGenericSteel
+  components:
+  - type: StorageFill
+    contents:
+    - id: ModsuitCoreEnergy
+      amount: 2
+
+# backmen edit end
+
 #- type: entity
 #  id: CrateMaterialHFuelTank
 #  name: fueltank crate
